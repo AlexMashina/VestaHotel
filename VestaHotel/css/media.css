@@ -1,0 +1,427 @@
+@media(max-width:1010px){
+    .gallery__inner-images{
+        display: block;
+    }
+    .images__column-one{
+        text-align: center;
+    }
+    .images__column-one img{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .images__column-second{
+        display: flex;
+        max-width: 975px;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    .images__column-second img{
+        max-width: 375px;
+        width: auto
+    }
+}
+@media(max-width:980px){
+    .slick__item{
+        display: block;
+    }
+    .slick__item-slider{
+        width: auto;
+        margin: 0 auto;
+    }
+    .slick__info{
+        max-width: 575px;
+        margin: 0 auto;
+    }
+    .slick__info-class{
+        margin-top: -41px;
+        margin-left: 220px;
+    }
+    .slick__info-class.left{
+        margin-left: 140px;
+    }
+    .slick__info-class.middle{
+        margin-left: 195px;
+    }
+}
+@media(max-width:950px){
+    .comfort__zone{
+        display: block;
+    }
+    .comfot__zone-column{
+        margin: 0 auto;
+    }
+    .rooms{
+        min-height: 200px;
+    }
+    .rooms__inner-title{
+        padding-top: 10px;
+    }
+    .rooms__inner-text{
+        margin-top: 20px;
+    }
+}
+@media(max-width:900px){
+    .header{
+        height: 100vh;
+    }
+    .header__die{
+        
+    }
+    .header__title{
+        padding: 0;
+        margin-top: -138px;
+    }
+    .header__menu{
+        position: relative;
+        left: 0;
+        height: 400px;
+        background-color: transparent;
+    }
+    .header__menu-mobile{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        position: fixed;
+        z-index: 3;
+    }
+    .header__menu ul{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .header__menu li{
+        display: block;
+        padding: 2px 0;
+        text-align: center;
+    }
+    .header__menu li a{
+        height: 55px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .header__drop-button{
+        position: fixed;
+        background-color: rgba(0,0,0,0.6);
+        width: 100%;
+        height: 60px;
+        margin-top: -60px;
+        z-index: 3;
+    }
+    .header__drop{
+        display: block;
+        transition: all .3s;
+        margin-top: 5px;
+        z-index: 3;
+    }
+    .header__drop.active{
+        transform: rotate(180deg);
+    }
+    .header__drop.active img{
+        top: -18px;
+    }
+    .header__menu-contacts{
+        display: none !important;
+    }    
+}
+@media(max-width:770px){
+    .invisibleone{
+        display: none;
+    }
+    .invisibletwo{
+        display: block;
+    }
+    .images__column-second img{
+        width: 300px;
+        height: 200px;
+    }
+    .gallery__inner h2{
+        font-size: 38px;
+    }
+    .gallery__inner p{
+        font-size: 16px;
+    }
+}
+@media(max-width:750px){
+    .rooms{
+        min-height: 240px;
+    }
+}
+@media(max-width:700px){
+    .header__menu-mobile{
+        top: 8px;
+    }
+    .header__menu-number{
+        font-size: 12px;
+    }
+    .header__drop img {
+        height: 70px;
+        top: -5px;
+    }
+}
+@media(max-width:650px){
+    .slick__item-slider{
+        width: 545px;
+        margin: 0;
+    }
+    .slick__item-images img {
+        max-width: 545px;
+    }
+    .images__column-second img{
+        width: 250px;
+        height: 170px;   
+    }
+    .gallery__inner h2{
+        padding: 10px;
+    }
+    .gallery__inner p{
+        padding-left: 10px;
+    }
+    .footer__map{
+        margin-bottom: 0;
+    }
+}
+@media(max-width:600px){
+    .header__title{
+        width: 375px;
+        font-size: 40px;
+    }
+    .comfort__title{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .comfort__title-text{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .comfort__item-title{
+        font-size: 20px;
+    }
+    .comfort__item-image img{
+        width: 65px;
+        height: 65px;
+    }
+    .rooms__inner{
+        padding: 0 30px;
+    }
+    .rooms__inner-title,
+    .rooms__inner-text{
+        text-align: center;
+    }
+    .slick__item-slider{
+        width: 500px;
+    }
+    .slick__item-images img {
+        max-width: 500px;
+    }
+    .slick__item-slider .slick-arrow{
+        height: 98.5%;
+    }
+    .slick__info-title{
+        font-size: 30px;
+    }
+    .slick__info-class{
+        margin-top: -34px;
+        margin-left: 180px;
+        font-size: 30px;
+    }
+    .slick__info-price{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .slick__info-inroom__title,
+    .slick__info-bathroom__title{
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .slick__info-inroom,
+    .slick__info-bathroom{
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .slick__info-btn{
+        font-size: 20px;
+    }
+    .slick__info-class.left{
+        margin-left: 117px;
+    }
+    .slick__info-class.middle{
+        margin-left: 160px;
+    }
+}
+
+@media(max-width:550px){
+    .header__menu-number{
+        display: none;
+    }
+    .rooms{
+        min-height: 190px;
+    }
+    .rooms__inner-title{
+        padding: 0;
+        font-size: 26px;
+    }
+    .rooms__inner-text{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .footer__inner{
+        padding-top: 0;
+    }
+    .footer__inner h2{
+        font-size: 36px;
+    }
+    .footer__under-title{
+        font-size: 16px;
+    }
+    .footer__inner-line{
+        margin: 20px auto;
+    }
+    .footer__contacts{
+        font-size: 14px;
+    }
+    .footer__copyright{
+        font-size: 10px;
+    }
+    .footer__map:first-child{
+        height: 260px;
+    }
+}
+@media(max-width:540px){
+    .slick__item-slider{
+        width: 450px;
+    }
+    .slick__item-images img {
+        max-width: 450px;
+    }
+    .slick__item{
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .images__column-one img {
+        width: 100%;
+    }
+    .images__column-second img{
+        width: 180px;
+        height: 120px;  
+    }
+    .gallery__inner h2{
+        padding: 0px;
+    }
+    .gallery__inner p{
+        padding: 0px;
+    }
+}
+@media(max-width:490px){
+    .slick__item-slider{
+        width: 390px;
+    }
+    .slick__item-images img {
+        max-width: 390px;
+    }
+}
+@media(max-width:470px){
+    .comfort__item-text{
+        width: 280px;
+    }
+    .rooms{
+        min-height: 225px;
+    }
+    .slick__item{
+        margin-top: 30px;
+    }
+}
+@media(max-width:420px){
+    .slick__item-slider{
+        width: 340px;
+    }
+    .slick__item-images img {
+        max-width: 340px;
+    }
+    .slick__item-slider .slick-arrow{
+        height: 98%;
+    }
+    .images__column-second img{
+        width: 140px;
+        height: 95px;
+        margin-bottom: 0;
+    }
+}
+@media(max-width:400px){
+    .header__title{
+        width: 300px;
+        font-size: 30px;
+    }
+    .rooms{
+        min-height: 250px;
+    }
+}
+@media(max-width:380px){
+    .comfort__item-title{
+        font-size: 15px;
+    }
+    .comfort__item-text{
+        width: 220px;
+    }
+    .rooms{
+        min-height: 270px;
+    }
+}
+@media(max-width:370px){
+    .slick__item-slider{
+        width: 300px;
+    }
+    .slick__item-images img {
+        max-width: 300px;
+    }
+    .slick__info-title{
+        font-size: 20px;
+    }
+    .slick__info-class{
+        font-size: 20px;
+        margin-top: -22px;
+        margin-left: 120px;
+    }
+    .slick__info-price{
+        font-size: 16px;
+    }
+    .slick__info-inroom__title,
+    .slick__info-bathroom__title{
+        font-size: 16px;
+    }
+    .slick__info-inroom,
+    .slick__info-bathroom{
+        font-size: 14px;
+    }
+    .slick__info-btn{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .slick__item{
+        margin-top: 20px;
+    }
+    .slick__info-class.left{
+        margin-left: 80px;
+    }
+    .slick__info-class.middle{
+        margin-left: 105px;
+    }
+    .slick__info-price.litle{
+        line-height: auto;
+        font-size: 16px;
+    }
+}
+@media(max-width:340px){
+    .rooms__inner-text{
+        font-size: 16px;
+    }
+    .slick__item-slider{
+        width: 280px;
+    }
+    .slick__item-images img {
+        max-width: 280px;
+    }
+}
